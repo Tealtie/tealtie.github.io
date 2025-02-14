@@ -8,6 +8,7 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             width: 100%; /* Full width of the viewport */
+            background-color: #f0f0f0; /* Just for visualization */
             height: 100vh; /* Full height of the viewport */
         }
         #HeaderDiv {
@@ -16,14 +17,30 @@
             margin-right: auto;
             text-align: center; /* Center content inside the div */
         }
+        #HeaderBtn {
+            font-size: 2em; /* Make it larger like a heading */
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+        #HeaderBtn:hover {
+            background-color: gray; /* Change color when hovering */
+        }
     </style>
     <script>
-        console.log('Hello, world!');
-        //alert("This Site Is In Development")
+        function handleClick() {
+            console.log("Header button clicked!");
+            window.location.href = "index.html"
+        }
     </script>
 </head>
 <body>
-    <div id="HeaderDiv"><h1>Tealtie</h1></div>
+    <div id="HeaderDiv">
+        <button id="HeaderBtn" onclick="handleClick()">Tealtie</button>
+    </div>
     <h3>Hi, I'm Tealtie!<br>
         I'm a young developer who codes for fun!</h3>
 </body>

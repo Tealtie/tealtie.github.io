@@ -11,3 +11,5 @@ Thanks to Github for making this possible as Github Pages hosts my site, Github.
 Thanks to OpenAI for ChatGPT as it helped me correct so many mistakes while making this project a reality.
 #### Microsoft
 Thanks to Microsoft for VS Code, which, without, none of my coding dreams would be possible!
+
+Doh

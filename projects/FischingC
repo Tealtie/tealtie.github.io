@@ -1,1 +1,49 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects/FischingC</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%; /* Full width of the viewport */
+            background-color: #f0f0f0; /* Just for visualization */
+            height: 100vh; /* Full height of the viewport */
+        }
+        #HeaderDiv {
+            width: 50%;  /* Set a width */
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center; /* Center content inside the div */
+        }
+        #HeaderBtn {
+            font-size: 2em; /* Make it larger like a heading */
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+        #HeaderBtn:hover {
+            background-color: gray; /* Change color when hovering */
+        }
+    </style>
+    <script>
+        function handleClick() {
+            console.log("Header button clicked!");
+            console.log("Redirecting to index.html");
+            window.location.href = "/index.html";
+        }
+    </script>
+</head>
+<body>
+    <div id="HeaderDiv">
+        <button id="HeaderBtn" onclick="handleClick()">Tealtie</button>
+    </div>
+    <a href="/projects.html">Back</a>
+    <h1>FischingC</h1>
+    <p></p>
+    </body>
+</html>

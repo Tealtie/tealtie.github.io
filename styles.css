@@ -1,9 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%; /* Full width of the viewport */
-    background-color: #202020; /* Just for visualization */
+    background-color: white; /* Just for visualization */
     height: 100vh; /* Full height of the viewport */
-    color: white; /* Text color */
+    color: black; /* Text color */
 }
 #HeaderDiv {
     width: 50%;  /* Set a width */
@@ -18,8 +18,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bolder;
-    background-color: dimgray;
-    color: white;
+    background-color: white;
+    color: black;
 }
 #HeaderBtn:hover {
     background-color: gray; /* Change color when hovering */
